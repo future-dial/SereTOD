@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/web.css"/>
+		<title>SereTOD Program</title>
+	</head>
+	<style>
+		.banner{margin-bottom: 40px;}
+		.event h2{
+			width:63%;
+		}
+		.here a:link,a:visited{color: #0000EE;text-decoration:none;}
+		.here a:hover{text-decoration:underline;}
+		
+		.table_td_th th,td{
+			padding:6px 6px 6px 0;
+			text-align:left;
+			vertical-align: top;
+		}
+		.table_td_th{
+			margin-top: 10px;margin-bottom: 50px;
+		}
+		.table_td_th a{
+			text-decoration: none;
+		}
+		
+		.table_td_th a:link,a:visited{color: #0000EE;text-decoration:none;	
+		}
+		.table_td_th a:hover{
+			text-decoration:underline;
+		}
+		.table_td_th tr>td:nth-child(1),tr>td:nth-child(2){
+			white-space: nowrap;
+		}
+		.table_td_th{
+			padding-left: 30px;
+		} 
+		table{
+			margin:0px auto;
+			width:63%;
+		}
+		.OralSession{
+			margin:0px auto;
+			width:63%;margin-bottom: 40px;
+		}
+		.OralSession p{
+			line-height: 30px;
+		}
+		.OralSession p>span:last-child{
+			margin-left: 20px;
+		}
+		.OralSession p>span:first-child{
+			white-space: nowrap;padding-left: 30px;
+		}
+	</style>
+	<body>
+		<div class="title_bar">
+			<div class="title">
+				<div class="logo">
+					<img src="./img/logo.png" alt="" style="width: unset !important;;height: 100%;">
+				</div>
+				<ul style="width:300px;height:60px;float: left;">
+					<a style="text-decoration: none;font:400 22px/60px 'microsoft yahei';color:#fff" href="http://seretod.org">SereTOD 2022 Workshop</>
+				</ul>
+				<ul class="label"style="float: right;height:60px;">
+					<a style="text-decoration: none;color:#101010;font: 400 16px/60px 'microsoft yahei';" href="http://seretod.org"><li>Home</li></a>
+					<a style="text-decoration: none;color:#101010" href="http://seretod.org/Organizers.html"><li>Organizers</li></a>
+					<a style="text-decoration: none;color:#101010" href="http://seretod.org/Program.html"><li>Program</li></a>
+					<a style="text-decoration: none;color:#101010" href="http://seretod.org/Challenge.html"><li>Challenge</li></a>
+					<a style="text-decoration: none;color:#101010" href="http://seretod.org/Accepted Papers.html"><li>Accepted Papers</li></a>
+					
+					<a style="text-decoration: none;color:#101010" href="Call%20for%20Papers.html"><li>Call for Papers</li></a>
+				</ul>
+			</div>
+		</div>
+		<div class="banner">
+			<h1 style="font: 700 26px/50px 'microsoft yahei';color:#fff;text-align: center;">Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems
+				<br>Co-located with EMNLP 2022</h1>
+			<h1 style="font: 700 26px/80px 'microsoft yahei';color:#fff;text-align: center;margin-top:30px; color:#7dd1fb;">Program</h1>
+		</div>
+		
+		<h2 style="width: 63%;margin:0 auto;">Schedule - December 7, 2022</h2>
+		<p style="width: 63%;margin:0 auto;margin-bottom: 10px;margin-top: 10px; color: #FF4848;" class="here">Virtually with EMNLP main venue (Abu Dhabi). Click <a href="https://us06web.zoom.us/j/84794256519">here</a> to join the Workshop! </p>
+		<table class="table_td_th" width="100%" border="0" cellspacing="0" cellpadding="20" bgcolor="#ffffff"  align="center">
+				<tr><td style="padding:0;" colspan="3"><hr style="background-color: #000000;border: none;height: 1px;"></td></tr>
+					<tr>
+						<th width="13%"style="text-align:left;">Abu Dhabi<br>(UTC+4)</th>
+						<th width="13%"style="text-align:left;">Beijing<br>(UTC+8)</th>
+						<td><b>Event</b></td>
+					</tr>
+				<tr><td style="padding:0;" colspan="3"><hr style="background-color: #000000;border: none;height: 1px;"></td></tr>
+					<tr>
+						<td>04:50-05:00</td>
+						<td>08:50-09:00</td>
+						<td>Opening Remarks (10 min)</td>
+					</tr>
+					<tr>
+						<td>05:00-05:40</td>
+						<td>09:00-09:40</td>
+						<td><b><a href="Invited Speakers.html#Dilek Hakkani-Tur">Invited Talk 1 - Dilek Hakkani-Tur (40 min)</a></b></td>
+					</tr>
+					<tr>
+						<td>05:40-06:00</td>
+						<td>09:40-10:00</td>
+						<td>Break (20 min)</td>
+					</tr>
+					<tr>
+						<td>06:00-07:00</td>
+						<td>10:00-11:00</td>
+						<td>
+							<a href="#miaodian1">Oral Session 1 (Semi-Supervised Dialogue Systems) (15min * 4)</a>
+						</td>
+					</tr>
+					<tr>
+						<td>07:00-08:00</td>
+						<td>11:00-12:00</td>
+						<td><a href="#miaodian2">Oral Session 2 (Information Extraction and Knowledge-Grounded Dialogue Systems) (15min * 4)</a></td>
+					</tr>
+					<tr><td style="padding:0;" colspan="3"><hr style="background-color: #000000;border: none;height: 1px;"></td></tr>
+					<tr>
+						<td>08:00-09:00</td>
+						<td>12:00-13:00</td>
+						<td align="left">Lunch (1 hour)</td>
+					</tr>
+					<tr><td style="padding:0;" colspan="3"><hr style="background-color: #000000;border: none;height: 1px;"></td></tr>
+					<tr>
+						<td>09:00-09:40</td>
+						<td>13:00-13:40</td>
+						<td><b><a href="Invited Speakers.html#Jason Williams">Invited Talk 2 - Jason Williams (40 min)</a></b></td>
+					</tr>
+					<tr>
+						<td>09:40-10:40</td>
+						<td>13:40-14:40</td>
+						<td><a href="#miaodian3">Oral Session 3 (Reinforced Dialogue Systems) (15min * 4)</a></td>
+					</tr>
+					<tr>
+						<td>10:40-11:00</td>
+						<td>14:40-15:00</td>
+						<td>Break (20 min)</td>
+					</tr>
+					<tr>
+						<td>11:00-11:40</td>
+						<td>15:00-15:40</td>
+						<td><b><a href="Invited Speakers.html#Pascale Fung">Invited Talk 3 - Pascale Fung (40 min)</a></b></td>
+					</tr>
+					<tr>
+						<td>11:40-12:40</td>
+						<td>15:40-16:40</td>
+						<td><a href="#miaodian4">Oral Session 4 (Dialogue Datasets) (15min * 4)</a></td>
+					</tr>
+					<tr bgcolor="#ffffff" align="center">
+						<td>12:40-13:40</td>
+						<td>16:40-17:40</td>
+						<td><a href="#miaodian5">Poster Session (1 hour)</a></td>
+					</tr>
+					<tr>
+						<td>13:40-13:50</td>
+						<td>17:40-17:50</td>
+						<td>SereTOD Challenge Awards (10 min)</td>
+					</tr><tr>
+						<td>13:50-14:30</td>
+						<td>17:50-18:30</td>
+						<td><a href="http://seretod.org/Panel.html">Panel (40 min)</a></td>
+					</tr><tr>
+						<td>14:30</td>
+						<td>18:30</td>
+						<td>Closing</td>
+					</tr>
+					<tr><td style="padding:0;" colspan="3"><hr style="background-color: #000000;border: none;height: 1px;"/></td></tr>
+				</table>
+	<p style="width: 63%;margin:0 auto;margin-bottom: 10px;color: #FF4848;">The time is in UTC+8.</p>
+	<h2 style="width: 63%;margin:0 auto;margin-bottom: 5px;" id="miaodian1">Oral Session 1 (Semi-Supervised Dialogue Systems)</h2>
+	<p style="width: 63%;margin:0 auto;margin-bottom: 12px;">Session Chair: Bing Liu</p>
+	<div class="OralSession" >
+		<p style="display: flex;">
+				<span>10:00-10:15</span>
+				<span><b>Semi-Supervised Knowledge-Grounded Pre-training for Task-Oriented Dialog Systems</b><br>
+				Weihao Zeng, Keqing He, Zechen Wang, Dayuan Fu, Guanting Dong, Ruotong Geng, Pei Wang, Jingang Wang, Chaobo Sun, Wei Wu, Weiran Xu
+				</span>
+			</p>
+			<p style="display: flex;">
+				<span>10:15-10:30</span>
+				<span><b>Prompt Learning for Domain Adaptation in Task-Oriented Dialogue</b><br>
+				Makesh Narsimhan Sreedhar, Christopher Parisien
+				</span>
+			</p>
+			<p style="display: flex;">
+				<span>10:30-10:45</span>
+				<span><b>Controllable Dialogue Simulation with In-context Learning</b><br>
+				Zekun Li, Wenhu Chen, Shiyang Li, Hong Wang, Jing Qian, Xifeng Yan
+				</span>
+			</p>
+			<p style="display: flex;">
+				<span>10:45-11:00</span>
+				<span><b>Robust Task-Oriented Dialogue Generation with Contrastive Pre-training and Adversarial Filtering</b><br>
+				Shiquan Yang, Xinting Huang, Jey Han Lau, Sarah Erfani
+				</span>
+			</p>
+	</div>	
+	
+<h2 style="width: 63%;margin:0 auto;margin-bottom: 5px;"id="miaodian2">Oral Session 2 (Information Extraction and Knowledge-Grounded Dialogue Systems)</h2>
+<p style="width: 63%;margin:0 auto;margin-bottom: 12px;">Session Chair: Kai Yu</p>
+	<div class="OralSession">
+		<p style="display: flex;">
+				<span>11:00-11:15</span>
+				<span><b>Information Extraction and Human-Robot Dialogue towards Real-life Tasks: A Baseline Study with the MobileCS Dataset</b><br>
+				Hong Liu, Hao Peng, Zhijian Ou, Juanzi Li, Yi Huang, Junlan Feng
+			</p>
+			<p style="display: flex;">
+				<span>11:15-11:30</span>
+				<span><b>Explainable Slot Type Attentions to Improve Joint Intent Detection and Slot Filling</b><br>
+				Kalpa Gunaratna, Vijay Srinivasan, Akhila Yerukola, Hongxia Jin
+				</span>
+			</p>
+			<p style="display: flex;">
+				<span>11:30-11:45</span>
+				<span><b>Topic-Aware Response Generation in Task-Oriented Dialogue with Unstructured Knowledge Access</b><br>
+				Yue Feng, Gerasimos Lampouras, Ignacio Iacobacci
+				</span>
+			</p>
+			<p style="display: flex;">
+				<span>11:45-12:00</span>
+				<span><b>Doc2Bot: Accessing Heterogeneous Documents via Conversational Bots</b><br>
+				Haomin Fu, Yeqin Zhang, Haiyang Yu, Jian Sun, Fei Huang, Luo Si, Yongbin Li, Cam Tu Nguyen
+				</span>
+			</p>
+	</div>	
+	<h2 style="width: 63%;margin:0 auto;margin-bottom: 5px;"id="miaodian3">Oral Session 3 (Reinforced Dialogue Systems)</h2>
+	<p style="width: 63%;margin:0 auto;margin-bottom: 12px;">Session Chair: Yi Huang</p>
+		<div class="OralSession">
+			<p style="display: flex;">
+					<span>13:40-13:55</span>
+					<span><b>A Generative User Simulator with GPT-based Architecture and Goal State Tracking for Reinforced Multi-Domain Dialog</b><br>
+					Hong Liu, Yucheng Cai, Zhijian Ou, Yi Huang, Junlan Feng
+					</span>
+				</p>
+				<p style="display: flex;">
+					<span>13:55-14:10</span>
+					<span><b>Offline-to-Online Co-Evolutional User Simulator and Dialogue System</b><br>
+					Dafeng Chi, Yuzheng Zhuang , Yao Mu, Bin Wang, Jianzhu Bao, Yasheng Wang, Yuhan Dong, Xin Jiang, Qun Liu, Jianye Hao
+					</span>
+				</p>
+				<p style="display: flex;">
+					<span>14:10-14:25</span>
+					<span><b>State-Aware Adversarial Training for Controllable Dialogue Generation</b><br>
+					Yi Huang, Xiaoting Wu, Wei Hu, Junlan Feng, chao deng
+					</span>
+				</p>
+				<p style="display: flex;">
+					<span>14:25-14:40</span>
+					<span><b>Is MultiWOZ a Solved Task? An Interactive TOD Evaluation Framework with User Simulator</b><br>
+					Qinyuan Cheng, Linyang Li, Guofeng Quan, Feng Gao, xiaofeng mou, Xipeng Qiu
+					</span>
+				</p>
+		</div>
+	<h2 style="width: 63%;margin:0 auto;margin-bottom: 5px;"id="miaodian4">Oral Session 4 (Dialogue Datasets)</h2>
+	<p style="width: 63%;margin:0 auto;margin-bottom: 12px;"id="miaodian4">Session Chair: Jiangjiang Zhao</p>
+		<div class="OralSession">
+			<p style="display: flex;">
+					<span>15:40-15:55</span>
+					<span><b>CMCC: A Comprehensive and Large-Scale Human-Human Dataset for Dialogue Systems</b><br>
+					Yi Huang, Xiaoting Wu, Si Chen, Wei Hu , Qing Zhu, Junlan Feng, Chao Deng, Zhijian Ou, Jiangjiang Zhao
+					</span>
+				</p>
+				<p style="display: flex;">
+					<span>15:55-16:10</span>
+					<span><b>DOROTHIE: Spoken Dialogue for Handling Unexpected Situations in Interactive Autonomous Driving Agents</b><br>
+					Ziqiao Ma, Benjamin VanDerPloeg, Cristian-Paul Bara, Huang Yidong, Eui-In Kim, Felix Gervits, Matthew Marge, Joyce Chai
+					</span>
+				</p>
+				<p style="display: flex;">
+					<span>16:10-16:25</span>
+					<span><b>AssistSR: Task-oriented Video Segment Retrieval for Personal AI Assistant</b><br>
+					Weixian Lei, DIFEI GAO, Yuxuan Wang, Dongxing Mao, Zihan Liang, Lingmin Ran, Mike Zheng Shou
+					</span>
+				</p>
+				<p style="display: flex;">
+					<span>16:25-16:40</span>
+					<span><b>DialogUSR: Complex Dialogue Utterance Splitting and Reformulation for Multiple Intent Detection</b><br>
+					Haoran Meng, Zheng Xin, Tianyu Liu, Zizhen Wang, he feng, Binghuai Lin, Xuemin Zhao, Yunbo Cao, Zhifang Sui
+					</span>
+				</p>
+		</div>
+	<h2 style="width: 63%;margin:0 auto;margin-bottom: 5px;"id="miaodian5">Poster Session</h2>
+	<p style="width: 63%;margin:0 auto;margin-bottom: 12px;">Session Chair: Yakun Li</p>
+		<div class="OralSession">
+			<p style="display: flex;">
+					<span>1.</span>
+					<span><b>A GlobalPointer based Robust Approach for Information Extraction from Dialog Transcripts</b><br>
+					Yanbo J. Wang, Sheng Chen, Hengxing Cai, Wei Wei, Kuo Yan, Zhe Sun, Hui Qin, Yuming Li, Xiaochen Cai
+					</span>
+				</p>
+				<p style="display: flex;">
+					<span>2.</span>
+					<span><b>A Token-pair Framework for Information Extraction from Dialog Transcripts in SereTOD Challenge</b><br>
+					Chenyue Wang, Xiangxing Kong, Mengzuo Huang, Feng Li, Jian Xing, Weidong Zhang, Wuhe Zou
+					</span>
+				</p>
+				<p style="display: flex;">
+					<span>3.</span>
+					<span><b>Disentangling Confidence Score Distribution for Out-of-Domain Intent Detection with Energy-Based Learning</b><br>
+					Yanan Wu, Zhiyuan Zeng, Keqing He, Yutao Mou, Pei Wang, Yuanmeng Yan, Weiran Xu
+					</span>
+				</p>
+				<p style="display: flex;">
+					<span>4.</span>
+					<span><b>Oh My Mistake!: Toward Realistic Dialogue State Tracking including Turnback Utterances</b><br>
+					Takyoung Kim, Yukyung Lee, Hoonsang Yoon, Pilsung Kang, Junseong Bang, Misuk Kim
+					</span>
+				</p>
+				<p style="display: flex;">
+					<span>5.</span>
+					<span><b>History-Aware Hierarchical Transformer for Multi-session Open-domain Dialogue System</b><br>
+					Tong Zhang, Yong Liu, Boyang Li, Zhiwei Zeng, Pengwei Wang, Yuan You, Chunyan Miao, Lizhen Cui
+					</span>
+				</p>
+				<p style="display: flex;">
+					<span>6.</span>
+					<span><b>Modeling Complex Dialogue Mappings via Sentence Semantic Segmentation Guided Conditional Variational Auto-Encoder</b><br>
+					Bin Sun, Shaoxiong Feng, Yiwei Li, Weichao Wang, Fei Mi, Yitong Li, Kan Li
+					</span>
+				</p>
+				
+				<p style="display: flex;">
+					<span>7.</span>
+					<span><b>Diving Deep into Modes of Fact Hallucinations in Dialogue Systems</b><br>
+					Souvik Das, Sougata Saha, Rohini Srihari
+					</span>
+				</p>
+				<p style="display: flex;">
+					<span>8.</span>
+					<span><b>Keep Me Updated! Memory Management in Long-term Conversations</b><br>
+					Sanghwan Bae, Donghyun Kwak, Soyoung Kang, Min Young Lee, Sungdong Kim, Yuin Jeong, Hyeri Kim, Sang-Woo Lee, Woomyoung Park, Nako Sung
+					</span>
+				</p>
+		</div>
+
+		<div style="margin-top:40px;" class="footer_bar">
+			<div class="footer">
+				<p style="color:#fff;font:400 16px/60px 'microsoft yahei';text-align:center;" >Copyright © SereTod Organizers. All rights reserved.</p>
+			</div>
+		</div>
+	</body>
+</html>

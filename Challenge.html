@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>SereTOD Challenge</title>
+		<link rel="stylesheet" type="text/css" href="css/web.css"/>
+	</head>
+	<body>
+		<div class="title_bar">
+			<div class="title">
+				<div class="logo">
+					<img src="./img/logo.png" alt="" style="width: unset !important;;height: 100%;">
+				</div>
+				<ul style="width:300px;height:60px;float: left;">
+					<a style="text-decoration: none;font:400 22px/60px 'microsoft yahei';color:#fff" href="http://seretod.org">SereTOD 2022 Workshop</>
+				</ul>
+				<ul class="label"style="float: right;height:60px;">
+					<a style="text-decoration: none;color:#101010;font: 400 16px/60px 'microsoft yahei';" href="http://seretod.org"><li>Home</li></a>
+					<a style="text-decoration: none;color:#101010" href="http://seretod.org/Organizers.html"><li>Organizers</li></a>
+					<a style="text-decoration: none;color:#101010" href="http://seretod.org/Program.html"><li>Program</li></a>
+					<a style="text-decoration: none;color:#101010" href="http://seretod.org/Challenge.html"><li>Challenge</li></a>
+					<a style="text-decoration: none;color:#101010" href="http://seretod.org/Accepted Papers.html"><li>Accepted Papers</li></a>
+					
+					<a style="text-decoration: none;color:#101010" href="Call%20for%20Papers.html"><li>Call for Papers</li></a>
+				</ul>
+			</div>
+		</div>
+		<div class="banner">
+			<h1 style="font: 700 26px/50px 'microsoft yahei';color:#fff;text-align: center;">Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems
+				<br>Co-located with EMNLP 2022</h1>
+			<h1 style="font: 700 26px/80px 'microsoft yahei';color:#fff;text-align: center;margin-top:30px; color:#7dd1fb;">Challenge</h1>
+		</div>
+		<div class="font_title">
+			<h1 style="font: 700 30px/50px 'microsoft yahei';color:#101010;text-align: center;">Call for Participation</h1>
+		</div>
+		<div class="main">
+			<span style="width:63%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align: justify;"> We introduce a new shared task for challenge, aiming to benchmark semi-supervised and reinforced task-oriented dialog systems, built for automated customer-service for mobile operators. The task consists of two tracks: </span>
+		</div>
+		<div style="height: unset !important;" class="green">
+			<li style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 30px;" > Information extraction from dialog transcripts (Track 1) </li>
+		</div>
+		<div style="height: unset !important;" class="green">
+			<li style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 30px;" > Task-oriented dialog systems (Track 2)</li>
+		</div>
+		<div class="main">
+			<span style="width:63%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align: justify;"> An important feature for this shared task is that we release around 100K dialogs (in Chinese), which come from real-world dialog transcripts between real users and customer-service staffs from China Mobile, with privacy information anonymized. We call this dataset as <span style="font:700 16px/28px 'microsoft yahei';">MobileCS</span> (mobile customer-service) dialog dataset, which differs from existing TOD datasets in both <span style="font:700 16px/28px 'microsoft yahei';" >size</span>  and <span style="font:700 16px/28px 'microsoft yahei';" >nature</span> significantly. </span>
+		</div>
+		<br>
+		<div style="margin-bottom:20px" class="main">
+			<span style="width:63%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align: justify;"> To the best of our knowledge, MobileCS is not only the largest publicly available multi-domain TOD dataset, but also consists of real-life human-to-human data (namely collected in real-world scenarios). For comparison, the widely used MultiWOZ dataset consists of 10K dialogs and is in fact simulated data (namely collected in a Wizard-of-Oz simulated game).</span>
+		</div>
+		<div style="margin-bottom:20px" class="main">
+			<span style="width:63%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align: justify;">A schema is provided, based on which 10K dialogs are labeled by crowdsourcing. The remaining 90K dialogs are unlabeled.
+The teams are required to use this mix of labeled and unlabeled data to train information extraction models (Track 1), which could provide a knowledge base for Track 2, and train TOD systems (Track 2), which could work as customer-service bots.
+We put aside 1,000 dialogs as evaluation data.
+The teams can choose to participate in Track 1 or Track 2, or both.
+			</span>
+		</div>
+		<div style="margin-bottom:20px" class="main">
+			<span style="width:63%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align: justify;">For each track, three teams with top performances will be recognized with prizes RMB20,000, RMB15,000 and RBM10,000, respectively. The prizes will be awarded at the Workshop.
+			</span>
+		</div>		
+		<div style="height: unset !important;" class="green">
+			<li style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 30px;" > <span style="font:700 16px/28px 'microsoft yahei';" >Challenge Description: </span>
+			<br><a href="http://seretod.org/SereTOD_Challenge_Description_v2.1.pdf">v2.1 (Sep. 10, 2022, mainly adding Combined Score for Track 2)</a>
+			<br><a href="http://seretod.org/SereTOD_Challenge_Description_v2.0.pdf">v2.0 (July 1, 2022)</a> </li>
+						<li style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 30px;" > <span style="font:700 16px/28px 'microsoft yahei';" >Code repository for baseline systems and evaluation scripts: </span>
+						<br><a href="https://github.com/SereTOD/SereTOD2022">https://github.com/SereTOD/SereTOD2022</a></li>
+		</div>
+		<div style="height: unset !important;" class="green">
+			<li style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 30px;" > <span style="font:700 16px/28px 'microsoft yahei';" >Challenge Registration: </span> 
+			<br>Please fill the form (<a href="http://seretod.org/English_Registration_Form.docx">English form</a>, <a href="http://seretod.org/Chinese_Registration_Form.docx">Chinese form</a>) and send to seretod2022 (at) gmail (dot) com to complete the registration. Registration deadline: July 1, 2022.</li>
+			<li style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 30px;" > <span style=" 16px/28px 'microsoft yahei';" >You are welcome to scan the following QR code to join the WeChat group (in Chinese), where we will distribute messages relevant to the Challenge.</li>
+			<p style="display: flex; justify-content: center;">
+				<img src="./img/ewm.png" style="width: 100px;">
+			</p>
+			<li style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 30px;" > <span style=" 16px/28px 'microsoft yahei';" ><a id="track">For each track, the system description papers from the top three teams are released as follows:</a></li>
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 30px;"><b>Top three teams for Track 1 (Information extraction from dialog transcripts)</b></p>
+			<li type="square" style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 60px;" > <span style=" 16px/28px 'microsoft yahei';" ><a href="Track 1 first - AI Cracker.pdf">Track 1 first - AI Cracker</a></li>
+			<li type="square" style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 60px;" > <span style=" 16px/28px 'microsoft yahei';" ><a href="Track 1 second - Cang Jie.pdf">Track 1 second - Cang Jie</a></li>
+			<li type="square" style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 60px;" > <span style=" 16px/28px 'microsoft yahei';" ><a href="Track 1 third - wai bi ba bo.pdf">Track 1 third - wai bi ba bo</a></li>
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 30px;"><b>Top three teams for Track 2 (Task-oriented dialog systems)</b></p>
+			<li type="square" style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 60px;" > <span style=" 16px/28px 'microsoft yahei';" ><a href="https://arxiv.org/abs/2210.08873">Track 2 first - PRIS-NLP</a></li>
+			<li type="square" style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 60px;" > <span style=" 16px/28px 'microsoft yahei';" ><a href="Track 2 second - PAssion.pdf">Track 2 second – Passion</a></li>
+			<li type="square" style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;padding-left: 60px;" > <span style=" 16px/28px 'microsoft yahei';" ><a href="https://arxiv.org/abs/2212.12363">Track 2 third - TJU-LMC</a></li>
+		</div>
+		<div class="font_title">
+			<h1 style="font: 700 30px/50px 'microsoft yahei';color:#101010;text-align: center;">Important Dates
+				</h1>
+		</div>
+		<div class="green" style="height: unset !important;">
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:center;" > Please refer to <a href="http://seretod.org/index.html#Important">here</a>! </p>
+		</div>	
+		</div>
+		<div class="font_title">
+			<h1 style="font: 700 30px/50px 'microsoft yahei';color:#101010;text-align: center;">Challenge Organizers</h1>
+		</div>
+		<div style="margin:0px auto; width:63%;"class="r">
+			<p ><li style="text-align:center;font:400 16px/32px 'microsoft yahei';list-style: none;">Zhijian Ou, Tsinghua University</li></p>
+			<p ><li style="text-align:center;font:400 16px/32px 'microsoft yahei';list-style: none;">Junlan Feng, China Mobile</li></p>
+			<p ><li style="text-align:center;font:400 16px/32px 'microsoft yahei';list-style: none;">Juanzi Li, Tsinghua University</li></p>		
+			<p ><li style="text-align:center;font:400 16px/32px 'microsoft yahei';list-style: none;" >Yakun Li, Tsinghua University</li></p>
+			<p ><li style="text-align:center;font:400 16px/32px 'microsoft yahei';list-style: none;" >Hong Liu, Tsinghua University</li></p>
+			<p ><li style="text-align:center;font:400 16px/32px 'microsoft yahei';list-style: none;">Hao Peng, Tsinghua University</li></p>
+			<p ><li style="text-align:center;font:400 16px/32px 'microsoft yahei';list-style: none;">Yi Huang, China Mobile</li></p>
+			<p ><li style="text-align:center;font:400 16px/32px 'microsoft yahei';list-style: none;">Jiangjiang Zhao, China Mobile</li></p>
+		</div>		
+		<div class="font_title">
+			<h1 style="font: 700 30px/50px 'microsoft yahei';color:#101010;text-align: center;">Contact</h1>
+		<div class="green" style="height: unset !important;width: 68%">
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:center;" > For any questions, please feel free to contact: seretod2022 (at) gmail (dot) com</p>
+		</div>	
+		</div>		
+		<div style="margin-top:40px;" class="footer_bar">
+			<div class="footer">
+				<p style="color:#fff;font:400 16px/60px 'microsoft yahei';text-align:center;" >Copyright © SereTod Organizers. All rights reserved.</p>
+			</div>
+		</div>
+	</body>
+</html>

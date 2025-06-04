@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>SereTOD Home</title>
+			<link rel="stylesheet" type="text/css" href="css/web.css"/>
+			<script type="text/javascript">
+				window.onload = function(){
+					var but = document.getElementById("but");
+					but.onclick = function(){
+						alert("89746")
+					}
+				}
+			</script>
+	</head>
+	<style>
+		.green a:link,a:visited{color: #0000EE;text-decoration:underline;}
+		.green a:hover{text-decoration: underline;}
+		
+	</style>
+	<body>
+		<div class="title_bar">
+			<div class="title">
+				<div class="logo">
+					<img src="./img/logo.png" alt="" style="width: unset !important;;height: 100%;">
+				</div>
+				<ul style="width:300px;height:60px;float: left;">
+					<a style="text-decoration: none;font:400 22px/60px 'microsoft yahei';color:#fff" href="http://seretod.org">SereTOD 2022 Workshop</>
+				</ul>
+				<ul class="label"style="float: right;height:60px;">
+					<a style="text-decoration: none;color:#101010;font: 400 16px/60px 'microsoft yahei';" href="http://seretod.org"><li>Home</li></a>
+					<a style="text-decoration: none;color:#101010" href="http://seretod.org/Organizers.html"><li>Organizers</li></a>
+					<a style="text-decoration: none;color:#101010" href="http://seretod.org/Program.html"><li>Program</li></a>
+					<a style="text-decoration: none;color:#101010" href="http://seretod.org/Challenge.html"><li>Challenge</li></a>
+					<a style="text-decoration: none;color:#101010" href="http://seretod.org/Accepted Papers.html"><li>Accepted Papers</li></a>
+					
+					<a style="text-decoration: none;color:#101010" href="Call%20for%20Papers.html"><li>Call for Papers</li></a>
+				</ul>
+			</div>
+		</div>
+		<div class="banner">
+			<h1 style="font: 700 26px/50px 'microsoft yahei';color:#fff;text-align: center;">Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems
+				<br>Co-located with EMNLP 2022</h1>
+			<h1 style="font: 700 26px/80px 'microsoft yahei';color:#fff;text-align: center;margin-top:30px; color:#7dd1fb;">Home</h1>
+		</div>
+		<div class="font_title">
+			<h1 style="font: 700 30px/50px 'microsoft yahei';color:#101010;text-align: center;">Overview
+				</h1>
+		</div>
+		<div class="main">
+			<span style="width:63%;font:400 16px/32px 'microsoft yahei';color:'#101010';">Task-oriented dialog (TOD) systems are designed to assist users to accomplish their goals. Recently, neural generative approaches have received increasing attention. Unfortunately, building TOD systems remains as a label-intensive and time-consuming task. The process still heavily relies on manually labeled dialog data and annotated task-related knowledge base. However, unlabeled data are often easily available in many forms such as human-to-human dialogs, open-domain text corpus, and unstructured knowledge documents. Moreover, the nature of sequential decision making is not fully considered in current TOD systems. The purpose of this workshop is to invite researchers from both academia and industry to share their perspectives on building semi-supervised and reinforced TOD systems, discuss challenges and advance the field in joint effort. In parallel, a challenge is organized to foster this line of research, with a newly released, large-scale, human-human dialog dataset, called the MobileCS (Mobile Customer Service) dataset, which consists of 100K real-world dialogs. The challenge includes two tracks: Information extraction from dialog transcripts (Track 1), and Task-oriented dialog systems (Track 2).
+			</span>
+		</div>
+		<div class="tuite" style="width:100vw;height:24px;margin:0 auto;margin-top:30px;display: flex;justify-content: center;">
+			<a href="https://twitter.com/Seretod2022" style="margin-right: 3px"><img src="img/tt.png"></a>
+			<p style="color:#101010;float:right;margin-left: 3px"><a href="https://twitter.com/Seretod2022">Check out SereTOD</a></p>
+		</div>
+		<div class="font_title">
+			<h1 style="font: 700 30px/50px 'microsoft yahei';color:#101010;text-align: center;">News
+				</h1>
+		</div>
+		<div class="green" style="height: unset;">
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">			
+					<span>2023/1/6&nbsp;</span>
+					<span> <b>The Proceedings of the SereTOD Workshop</b> can be accessed <a href="https://aclanthology.org/volumes/2022.seretod-1/">here</a>. 
+					The system description papers from the top three teams for Track 1 and Track 2 of SereTOD Challenge respectively can be found <a href="Challenge.html#track">here</a>.
+					</span>
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">
+					<span>2022/12/17&nbsp;</span>
+					<span> The live recording of the SereTOD Workshop, including all sessions of Opening Remarks, 3 Invited Talks, 4 Oral Sessions, SereTOD Challenge Awards, and Panel, could be accessed <a href="https://www.bilibili.com/video/BV158411V7k1?p=1">here</a>! You can select different sessions by the video selector on the right of the video. Enjoy it!</span>
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">
+					<span>2022/11/27&nbsp;</span>
+					<span>  Due to recent situation regarding COVID-19 in Beijing, EMNLP 2022 SereTOD Workshop is to be held fully virtually via <a href="https://us06web.zoom.us/j/84794256519">a Zoom webinar</a>. The virtual poster session can be accessed from EMNLP 2022 online platform via GatherTown. Click <a href="https://us06web.zoom.us/j/84794256519">here</a> to join the Workshop!</span>
+		<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">
+				<span>2022/11/23&nbsp;</span>
+				<span> Information about <a href="Invited Speakers.html">invited speakers</a> and <a href="Panel.html">panel</a> posted! <a href="https://forms.gle/RssZ7Tiiskk9yFGn7">SereTOD 2022 Panel Questionnaire</a> opened up! Feel free to let us know what topics you would like to see discussed at the panel. </span>
+		</p>
+		<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">
+				<span>2022/11/03&nbsp;</span>
+				<span>SereTOD Workshop <a href="Program.html">Program</a> published!</span>
+		</p>
+		<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">
+				<span>2022/10/10&nbsp;</span>
+				<span>Notification of paper acceptance sent out! Given the high-quality submissions received and the capacity of the Workshop, the selection process was very competitive and the acceptance rate is 47%, with 11 accepted papers.
+</span>
+		</p>
+		<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">
+				<span>2022/9/14&nbsp;</span>
+				<span>The ground-truth labels/responses of the test data for both Track 1 and Track 2 have been released via email.</span>
+		</p>
+		<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">
+				<span>2022/9/10&nbsp;</span>
+				<span>We are pleased to announce the evaluation results for both Track 1 and Track 2, which can be accessed via <a href="https://docs.google.com/spreadsheets/d/1w28AKkG6Wjmuo15QlRlRyrnv859MT1ry0CHV8tFxY9o/edit?usp=sharing">this link</a>. Congratulations to the 15 teams, who submitted effective results, out of the total of 62 teams registered for SereTOD Challenge!</span>
+		</p>
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">			
+		<span>2022/8/27&nbsp;</span>
+				<span>
+					Manuscripts that have been reviewed for EMNLP 2022 and were rejected have the opportunity to be considered for publication in the Workshop proceedings.
+					The deadline for submitting EMNLP manuscripts and reviews is October 7, 2022. See details in <a href="Call%20for%20Papers.html">Call for Papers</a>.
+				</span>
+			</p>	
+					<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">
+				<span>2022/8/14&nbsp;</span>
+				<span>
+					Entry Submission due date is extended by 10 days to August 31. Accordingly, the due dates for Evaluation Results Announced and Regular Paper Submission are also extended by 10 days.
+				</span>
+			</p>
+			
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">
+				<span>2022/8/14&nbsp;</span>
+				<span>
+					Evaluation data have been released to registered teams.
+				</span>
+			</p>				
+
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">
+				<span>2022/8/02&nbsp;</span>
+				<span>
+					We have provided computer resources to 12 teams. Thanks the support from <a href="https://jiutian.10086.cn/#/home">JiuTian</a> !
+				</span>
+			</p>				
+
+			
+		<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">
+				<span>2022/7/05&nbsp;</span>
+				<span>
+					The <a href="https://github.com/SereTOD/SereTOD2022">code repository</a> for baseline systems and evaluation scripts for both Track 1 and Track 2 are released.
+				</span>
+			</p>		
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">
+				<span>2022/7/01&nbsp;</span>
+				<span>
+					The MobileCS dataset for SereTOD Challenge has been released to registered teams.
+				</span>
+			</p>	
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">
+				<span> 2022/4/29&nbsp;</span>
+				<span>
+					<b>SereTOD Challenge Kickoff Seminar</b> is completed! Introduction to the Challenge (by Zhijian Ou), talk videos from invited speakers (from Xiaodong He, Luo Si, Kai Yu, Zhengyu Niu, Wanxiang Che), panel recording (hosted by Junlan Feng), are available <a href="https://www.bilibili.com/video/BV1AR4y1P7xh?p=1">here</a>
+					!
+				</span>
+			</p>
+
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;">
+				<span>2022/4/19&nbsp;</span>
+				<span>
+					Registration opening for challenge, as detailed in <a href="Challenge.html"> Call for Participation</a> !
+				</span>
+			</p>
+
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:left;display: flex;" >
+				<span> 2022/2/23&nbsp;</span>
+				<span>
+					Announcement of 
+					<a href="Call%20for%20Papers.html">Call for Papers</a>
+					!
+				</span>
+			</p>
+
+		</div>
+		<div class="font_title">
+			<h1 id="Important" style="font:700 30px/50px 'microsoft yahei';color:#101010;text-align: center; "><a name="xinxi" >Important Dates (AOE)</a>
+				</h1>
+		</div>
+		<div class="table" style="width: 80%;">
+			<table cellspacing=10 style="border-collapse:collapse;" border="0">
+			<tr>
+			<td style="width:580px;text-align:right;font: 400 16px/32px 'microsoft yahei';color:#101010;" ><del>July 1, 2022</del></td>
+			<td style="width:580px;" ><del>Registration deadline for challenge (extended)</del></td>
+			</tr>
+			<tr>
+			<td style="width:580px;text-align:right;font: 400 16px/32px 'microsoft yahei';color:#101010;" ><del>July 1, 2022</del></td>
+			<td style="width:580px;" ><del>Training data release (extended)</del></td>
+			</tr>
+			<tr>
+			<td style="width:580px;text-align:right;font: 400 16px/32px 'microsoft yahei';color:#101010;" ><del>July 15, 2022</del></td>
+			<td style="width:580px;"><del>ACL Rolling Review paper due (submit via <a href="https://aclrollingreview.org/">ARR</a>)</del></td>
+			</tr>
+			<tr>
+			<td style="width:580px;text-align:right;font: 400 16px/32px 'microsoft yahei';color:#101010;" ><del>August 14, 2022</del></td>
+			<td style="width:580px;" ><del>Evaluation data release</del></td>
+			</tr>
+			<tr>
+			<td style="width:580px;text-align:right;font: 400 16px/32px 'microsoft yahei';color:#101010;" ><del>August 31, 2022</del></td>
+			<td style="width:580px;" ><del>Entry submission deadline (extended)</del></td>
+			</tr>
+			<tr>
+			<td style="width:580px;text-align:right;font: 400 16px/32px 'microsoft yahei';color:#101010;" ><del>September 10, 2022</del></td>
+			<td style="width:580px;" ><del>Evaluation results announced (extended)</del></td>
+			</tr>
+			<tr>
+			<td style="width:580px;text-align:right;font: 400 16px/32px 'microsoft yahei';color:#101010;" ><del>September 17, 2022</del></td>
+			<td style="width:580px;" ><del>Regular paper submission due (via <a href="https://softconf.com/emnlp2022/seretod/">softconf</a>) (extended)</del></td>
+			</tr>
+
+			<tr>
+			<td style="width:580px;text-align:right;font: 400 16px/32px 'microsoft yahei';color:#101010;" ><del>October 2, 2022</del></td>
+			<td style="width:580px;" ><del>ARR commitment due (via <a href="https://openreview.net/group?id=EMNLP/2022/Workshop/SereTOD_Commitments">OpenReview</a>)</del></td>
+			</tr>
+			<tr>
+			<td style="width:580px;text-align:right;font: 400 16px/32px 'microsoft yahei';color:#101010;" ><del>October 7, 2022</del></td>
+			<td style="width:580px;" ><del>Submission of EMNLP manuscripts with reviews (via <a href="https://softconf.com/emnlp2022/seretod/">softconf</a>)</del></td>
+			</tr>
+			<tr>
+			<tr>
+			<td style="width:580px;text-align:right;font: 400 16px/32px 'microsoft yahei';color:#101010;" ><del>October 10, 2022</del></td>
+			<td style="width:580px;" ><del>Notification of paper acceptance</del></td>
+			</tr>
+			<tr>
+			<td style="width:580px;text-align:right;font: 400 16px/32px 'microsoft yahei';color:#101010;" ><del>October 16, 2022</del></td>
+			<td style="width:580px;" ><del>Camera-ready papers due</del></td>
+			</tr>
+			<tr>
+			<td style="width:580px;text-align:right;font: 400 16px/32px 'microsoft yahei';color:#101010;" ><del>December 7, 2022</del></td>
+			<td style="width:580px;" ><del>EMNLP 2022 Workshop Date (virtual)</del></td>
+			</tr>
+			</table>
+		</div>
+		<div class="font_title">
+			<h1 style="font: 700 30px/50px 'microsoft yahei';color:#101010;text-align: center;">Invited Speakers
+				</h1>
+		</div>
+		<div style="margin:0px auto; width:63%;"class="r">
+			
+			<p ><li style="text-align:center;font:400 16px/32px 'microsoft yahei';list-style: none;" ><a style="text-decoration: underline;color:#0000EE" href="Invited Speakers.html#Dilek Hakkani-Tur">Dilek Hakkani-Tur, Amazon</a></li></p>
+			<p ><li style="text-align:center;font:400 16px/32px 'microsoft yahei';list-style: none;"><a style="text-decoration: underline;color:#0000EE" href="Invited Speakers.html#Jason Williams">Jason Williams, Apple</a></li></p>
+			<p ><li style="text-align:center;font:400 16px/32px 'microsoft yahei';list-style: none;" ><a style="text-decoration: underline;color:#0000EE" href="Invited Speakers.html#Pascale Fung">Pascale Fung, HKUST</a></li></p>
+		</div>
+		<div class="font_title">
+			<h1 style="font: 700 30px/50px 'microsoft yahei';color:#101010;text-align: center;">Supported by
+				</h1>
+		</div>
+		<div class="green" style="height: unset;">
+			<p style="width:100%;font:400 16px/32px 'microsoft yahei';color:#101010;text-align:center;" >Joint Institute of Tsinghua University - China Mobile Communications Group Co. Ltd.</p>
+		</div>
+		<div class="font_title">
+			<h1 style="font: 700 30px/50px 'microsoft yahei';color:#101010;text-align: center;">Contact
+				</h1>
+		</div>
+		<div style="margin:0px auto; width:63%;"class="r">
+			<p style="text-align:center;font:400 16px/32px 'microsoft yahei'">Zhijian Ou (ozj@tsinghua.edu.cn)</p>
+			<p style="text-align:center;font:400 16px/32px 'microsoft yahei'">Junlan Feng (fengjunlan@chinamobile.com)</p>
+			<p style="text-align:center;font:400 16px/32px 'microsoft yahei'">Juanzi Li (lijuanzi@tsinghua.edu.cn)</p>
+		</div>
+		<div class="bottom">
+			<div class="img-box">
+				<img src="./img/2footer.png" alt="" style="width: 100%;height: unset !important;">
+			</div>
+		</div>
+		<div style="margin-top:40px;" class="footer_bar">
+			<div class="footer">
+				<p style="color:#fff;font:400 16px/60px 'microsoft yahei';text-align:center;" >Copyright © SereTod Organizers. All rights reserved.</p>
+			</div>
+		</div>
+	</body>
+</html>
